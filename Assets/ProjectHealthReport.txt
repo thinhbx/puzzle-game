@@ -1,0 +1,418 @@
+==========================================================
+           PROJECT HEALTH DASHBOARD REPORT
+           Generated: 2026-03-25 11:23:44
+==========================================================
+
+--- SUMMARY ---
+Health Score: 45/100
+Unused Assets: 91
+Missing References: 7
+Large Asset Warnings: 0
+Estimated Build Size: 26.7 MB
+
+--- UNUSED ASSETS (91 issues) ---
+  [Warning] Unused SceneTemplateAsset: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused Shader: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused Shader: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused Shader: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused Shader: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsSerializer.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Board/GameBoard.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsJsonParser.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Reflection/fsMetaType.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Internal/fsPortableReflection.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsData.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsJsonPrinter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Managers/GameManager.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Scenes/GameScene.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/fsDictionaryConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Board/SpecialPieceHandler.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/Unity/GUIStyle_DirectConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Reflection/fsTypeCache.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsAotCompilationManager.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Board/MatchFinder.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsResult.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Internal/fsVersionManager.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/fsIEnumerableConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Core/BaseScene.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsBaseConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/fsPrimitiveConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Board/BoardInput.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Reflection/fsMetaProperty.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Core/Transition.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/fsEnumConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Managers/LevelManager.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsISerializationCallbacks.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/fsDateConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsConfig.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Utils/DemoBlockGenerator.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/fsReflectedConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsObjectProcessor.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/fsForwardConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Internal/fsCyclicReferenceManager.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Internal/fsTypeExtensions.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Board/BoardCollapser.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Scenes/HomeScene.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Board/BoardFiller.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Core/ObjectPool.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/fsArrayConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Board/BlockPiece.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Popups/LevelSelectPopup.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/fsKeyValuePairConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/fsWeakReferenceConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsObjectAttribute.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Managers/SoundManager.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/Unity/Keyframe_DirectConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Reflection/fsReflectionUtility.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Common/Goal.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Core/Popup.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsDirectConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/Unity/RectOffset_DirectConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/Unity/Rect_DirectConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/Unity/AnimationCurve_DirectConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Popups/PausePopup.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Popups/WinPopup.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Core/Singleton.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Internal/fsVersionedType.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/Unity/UnityEvent_Converter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsContext.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/Unity/GUIStyleState_DirectConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsConverterRegistrar.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/Unity/Gradient_DirectConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/fsTypeConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/Unity/Bounds_DirectConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Core/AutoKillPooled.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/fsGuidConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Popups/LosePopup.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Core/BackgroundMusic.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/fsNullableConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Converters/Unity/LayerMask_DirectConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Core/FileUtils.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Common/Level.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Board/BoardCell.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/Internal/fsOption.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsPropertyAttribute.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Common/GameState.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsExceptions.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsMemberSerialization.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsConverter.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Common/LevelTile.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Ultilities/Source/fsIgnoreAttribute.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Common/BlockType.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Common/ColorBlockType.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Common/BoosterType.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+  [Info] Unused MonoScript: This asset is not referenced by any Scene or Prefab.
+    Path: Assets/Scripts/Game/Common/BlockerType.cs
+    Suggestion: Consider removing this asset to reduce project size, or verify it's used via code (Resources.Load, Addressables).
+
+--- MISSING REFERENCES (7 issues) ---
+  [Error] Missing reference 'dependency' in ScriptableObject 'Lit2DSceneTemplate'.
+    Path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
+    Suggestion: Assign a valid reference or set to None.
+
+  [Error] Missing reference 'probeVolumeDebugShader' in ScriptableObject 'Renderer2D'.
+    Path: Assets/Settings/Renderer2D.asset
+    Suggestion: Assign a valid reference or set to None.
+
+  [Error] Missing reference 'probeVolumeFragmentationDebugShader' in ScriptableObject 'Renderer2D'.
+    Path: Assets/Settings/Renderer2D.asset
+    Suggestion: Assign a valid reference or set to None.
+
+  [Error] Missing reference 'probeVolumeOffsetDebugShader' in ScriptableObject 'Renderer2D'.
+    Path: Assets/Settings/Renderer2D.asset
+    Suggestion: Assign a valid reference or set to None.
+
+  [Error] Missing reference 'probeVolumeSamplingDebugShader' in ScriptableObject 'Renderer2D'.
+    Path: Assets/Settings/Renderer2D.asset
+    Suggestion: Assign a valid reference or set to None.
+
+  [Error] Missing reference 'probeSamplingDebugMesh' in ScriptableObject 'Renderer2D'.
+    Path: Assets/Settings/Renderer2D.asset
+    Suggestion: Assign a valid reference or set to None.
+
+  [Error] Missing reference 'probeSamplingDebugTexture' in ScriptableObject 'Renderer2D'.
+    Path: Assets/Settings/Renderer2D.asset
+    Suggestion: Assign a valid reference or set to None.
+
+--- LARGE ASSETS (0 issues) ---
+--- BUILD SIZE ESTIMATE ---
+Total Estimated: 26.7 MB
+Textures: 27.4 KB
+Models: 0 B
+Audio: 0 B
+Shaders: 7.3 KB
+Animations: 0 B
+StreamingAssets: 0 B
+Other: 1.7 MB
+Engine Overhead: 25.0 MB
+

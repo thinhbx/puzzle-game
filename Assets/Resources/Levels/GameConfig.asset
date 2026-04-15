@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c4451370914cc49a904235ecd0e589, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleGame.Game.Config.GameConfig
+  defaultBoardWidth: 7
+  defaultBoardHeight: 9
+  cellSize: 1
+  cellSpacing: 0.1
+  numberOfBlockTypes: 5
+  blockSprites: []
+  blockColors: []
+  swapDuration: 0.2
+  collapseDuration: 0.15
+  fillDuration: 0.2
+  matchDestroyDuration: 0.15
+  cascadeDelay: 0.1
+  swapCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  collapseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  minMatchCount: 3
+  matchScoreBase: 10
+  comboScoreMultiplier: 5
+  horizontalBombMatchCount: 4
+  verticalBombMatchCount: 4
+  colorBombMatchCount: 5
+  matchEffectPrefab: {fileID: 0}
+  boosterEffectPrefab: {fileID: 0}
+  comboTextPrefab: {fileID: 0}
+  swapSound: {fileID: 0}
+  matchSound: {fileID: 0}
+  comboSound: {fileID: 0}
+  boosterSound: {fileID: 0}
+  winSound: {fileID: 0}
+  loseSound: {fileID: 0}
